@@ -7,7 +7,6 @@ function adder(l, r){
 
 /*Nouvelle fonction adder modifiée Question2 EX1*/
 function adder(/*args*/){
-
   //On sauvegarde dans un tableau les arguments passés en paramêtre
   var args = Array.prototype.slice.call(arguments);
   return function(v){
